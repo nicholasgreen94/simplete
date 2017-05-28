@@ -1,0 +1,168 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../.rvm/gems/ruby-2.2.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../.rvm/gems/ruby-2.2.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../.rvm/gems/ruby-2.2.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../.rvm/gems/ruby-2.2.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../.rvm/gems/ruby-2.2.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../.rvm/gems/ruby-2.2.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../.rvm/gems/ruby-2.2.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../.rvm/gems/ruby-2.2.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../.rvm/gems/ruby-2.2.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 10, sass/_global.scss */
+body {
+  box-sizing: border-box;
+  font-family: "Mada", sans-serif;
+  line-height: 1.5;
+  height: 100%;
+  min-height: 100%;
+  position: relative;
+}
+
+/* line 19, sass/_global.scss */
+.container {
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: none;
+  width: 100%;
+}
+
+/* line 26, sass/_global.scss */
+a {
+  text-decoration: none;
+  text-decoration-skip: ink;
+}
+
+/* line 2, sass/_header.scss */
+#skip_nav {
+  overflow: hidden;
+  text-decoration: none;
+  position: absolute;
+  top: -10000px;
+  left: -10000px;
+}
+/* line 8, sass/_header.scss */
+#skip_nav:hover, #skip_nav:focus {
+  font-size: 20px;
+  top: 24px;
+  left: 24px;
+}
+
+/* line 16, sass/_header.scss */
+#menu {
+  background: linear-gradient(rgba(57, 61, 58, 0.5), rgba(57, 61, 58, 0.5)), url('images/images/black_diamonds.png') repeat center center;
+  box-sizing: border-box;
+  height: 100vh;
+  max-width: 300px;
+  padding-top: 48px;
+  text-align: center;
+  width: 100%;
+  position: relative;
+}
+/* line 25, sass/_header.scss */
+#menu #menu_logo {
+  color: #fff;
+  font-size: 48px;
+}
+/* line 28, sass/_header.scss */
+#menu #menu_logo h2 {
+  letter-spacing: 1px;
+  text-decoration: underline;
+  text-decoration-color: #57ec8a;
+  text-decoration-skip: ink;
+}
+/* line 35, sass/_header.scss */
+#menu a {
+  color: #fff;
+}
+/* line 38, sass/_header.scss */
+#menu #main_nav {
+  padding: 48px 0;
+}
+/* line 40, sass/_header.scss */
+#menu #main_nav li {
+  margin: 12px 0;
+}
+/* line 42, sass/_header.scss */
+#menu #main_nav li a {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 100;
+  -moz-transition: color 0.38s;
+  -o-transition: color 0.38s;
+  -webkit-transition: color 0.38s;
+  transition: color 0.38s;
+}
+/* line 47, sass/_header.scss */
+#menu #main_nav li a:hover {
+  color: #57ec8a;
+}
+/* line 53, sass/_header.scss */
+#menu #social_media {
+  transform: translateX(-50%);
+  position: absolute;
+  bottom: 24px;
+  left: 50%;
+}
+/* line 58, sass/_header.scss */
+#menu #social_media li {
+  display: inline-block;
+}
